@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+body {    
+    
+    background: #000000;
+    --gap: 5em;
+    --line: 1px;
+    --color: rgba(255, 255, 255, 0.2);
+
+    background-image: linear-gradient(
+      -90deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    ),
+    linear-gradient(
+      0deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    );
+  background-size: var(--gap) var(--gap);
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 7%;
+    height: 100%;
+    transition: .3s;
+    scrollbar-width: none;
+    overflow: hidden scroll;
+    background: #ffffff12;
+    -ms-overflow-style: none;
+    padding: 20px 20px 20px 0;
+    backdrop-filter: blur(5px);
+    box-shadow: 8px 0px 9px 0px #00000014;
+}
+
+.menu-content {
+    padding-top: 150px;
+}
+
+.menu:hover {
+    width: 260px;
+}
+
+.menu:hover li span:nth-child(2) {
+    display: block;
+}
+
+.menu-content li {
+    list-style: none;
+    border-radius: 0px 0px 0px 0;
+    transition: .4s;
+    margin-bottom: 20px;
+}
+
+.menu-content li:hover {
+    background: #0c0c0c;
+}
+
+.menu-content li span:nth-child(2) {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(213, 213, 213);
+    display: flex;
+    align-items: center;
+    font-family: 'calibri';
+    
+}
+
+.material-symbols-outlined {
+    padding: 10px;
+    font-size: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: #0c0c0c;
+    
+}
+
+
+.card {
+    width: 40%;
+    height: 500px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 4px 4px 7px #bebebe,
+               -4px -4px 7px #bebebe;
+    margin: auto;
+    padding: 10px;
+    margin-top: 6.5%;
+    margin-left: 35%;    
+  }
