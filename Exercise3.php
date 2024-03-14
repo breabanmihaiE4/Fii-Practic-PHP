@@ -2,15 +2,15 @@
     print_r("Exercitiul 3 <br>");
     print_r("<br>");
     
-    $elementOfMultiplication = 5;
-    for ($multiplication = 0; $multiplication <= 10; $multiplication++) {
+    $mainFactor = 5;
+    for ($secondFactor = 0; $secondFactor <= 10; $secondFactor++) {
         print_r(
             "The result of multiplying "
-                . $elementOfMultiplication
+                . $mainFactor
                 . " by "
-                . $multiplication
-                . " is equal = "
-                . $elementOfMultiplication * $multiplication
+                . $secondFactor
+                . " is equal to "
+                . $mainFactor * $secondFactor
                 . "<br>"
         );
     }
