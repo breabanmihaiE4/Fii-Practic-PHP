@@ -96,11 +96,10 @@ a {
     margin-top: 6.5%;
     margin-left: 35%;    
   }
-/* 
-.result {
+
+.card > .result {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    margin-top: 25%; 
     font-size: 150%;
-} */
+}
