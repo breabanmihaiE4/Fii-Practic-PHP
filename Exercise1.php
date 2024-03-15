@@ -18,7 +18,7 @@
     </div>
     
     <div class = "card">
-        <div class = "result" style="margin-top: 21%;">
+        <div class = "result" style="margin-top: 17%;">
             <?php
                 define("MINIMUM_ARGUMENTS", 3);
                 define("FIRST", "first");
@@ -58,5 +58,3 @@
 </div>  
 </body>
 </html>
-
-<!-- ?first=-8&second=6&third=2 -->

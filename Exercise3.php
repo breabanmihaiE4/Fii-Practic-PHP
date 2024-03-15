@@ -18,7 +18,7 @@
     </div>
 
     <div class = "card">
-        <div class = "result" style="margin-top: 15%;">
+        <div class = "result" style="margin-top: 11%;">
             <?php               
                 $mainFactor = 5;
                 for ($secondFactor = 0; $secondFactor <= 10; $secondFactor++) {
