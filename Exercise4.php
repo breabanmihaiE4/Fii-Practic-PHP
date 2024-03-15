@@ -23,7 +23,7 @@
                 $names = ["Mihai", "Cristi", "Adrian", "Dani", "Mircea"];
                 
                 foreach($names as $key => $name) {
-                    print_r("Numele de pe pozitia " . $key . " este " . $name . "<br>");
+                    print_r("The name on the position " . $key . " is " . $name . "<br>");
                 }
             ?>
         </div>

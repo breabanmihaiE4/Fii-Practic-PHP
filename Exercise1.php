@@ -18,7 +18,7 @@
     </div>
     
     <div class = "card">
-        <div class = "result" style="margin-top: 17%;">
+        <div class = "result" style="margin-top: 15%;">
             <?php
                 define("MINIMUM_ARGUMENTS", 3);
                 define("FIRST", "first");
@@ -46,11 +46,11 @@
                     $division = $arguments[FIRST] / $arguments[SECOND] / $arguments[THIRD];
                     $power = $arguments[FIRST] ** $arguments[SECOND] ** $arguments[THIRD];
 
-                    print_r("<br>" . "Suma este = " . $sum . "<br>");
-                    print_r("Diferenta este = " . $difference . "<br>");
-                    print_r("Produsul este = " . $product . "<br>");
-                    print_r("Impartirea este = " . $division . "<br>");
-                    print_r("Ridicarea la putere este = " . $power . "<br>");
+                    print_r("<br>" . "The sum  is = " . $sum . "<br>");
+                    print_r("The difference is = " . $difference . "<br>");
+                    print_r("The product is = " . $product . "<br>");
+                    print_r("The division is = " . $division . "<br>");
+                    print_r("The empower is = " . $power . "<br>");
                 }
             ?>
         </div>
